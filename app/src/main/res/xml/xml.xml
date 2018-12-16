@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:summaryOff="not bold"
+        android:summaryOn="bold"
+        android:key="build"
+        />
+    <ListPreference
+        android:defaultValue="blue"
+        android:entries="@array/entryvalues"
+        android:entryValues="@array/entryvalues"
+        android:key="thelist"
+        android:title="choose color"/>
+</PreferenceScreen>
